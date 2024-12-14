@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetroalimentacionActivity"
+    android:orientation="vertical"
+    android:background="@drawable/general_img_fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_navegacionR"
+            tools:ignore="MissingConstraints">
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Frogramming"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:menu="@menu/general_toolbar_menu"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="Madre mia Willy"/>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50sp"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/jugabilidad1_img_speech"
+                android:layout_width="381sp"
+                android:layout_height="316sp"
+
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jugabilidad_img_speech_bubble" />
+
+            <ImageButton
+                android:id="@+id/imgSonido_correcto"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="45sp"
+                android:background="@drawable/general_img_audioblack"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/txt_descripcion_retroalimentacion"
+                android:layout_width="286sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgSonido_correcto"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0sp"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="La respuesta correcta era: Javascript"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imgcheck"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_below="@+id/txt_descripcion_retroalimentacion"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jugabilidad_img_incorrecto"/>
+        </RelativeLayout>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:layout_above="@+id/btn_continuar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25sp"
+            android:src="@drawable/jugabilidad_img_lunatriste"
+            android:layout_gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_continuar"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginHorizontal="30sp"
+            android:fontFamily="@font/poppins_extrabold"
+
+            android:background="@drawable/shape_general_botones"
+            android:textAllCaps="false"
+            android:textColor="#0F0E0E"
+            android:textSize="20sp"
+            android:text="Continuar"
+            android:elevation="5sp"/>
+    </LinearLayout>
+</RelativeLayout>

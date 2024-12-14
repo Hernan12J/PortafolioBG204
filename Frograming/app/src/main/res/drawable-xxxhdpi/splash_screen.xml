@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/general_img_fondo"/>
+    <item android:drawable="@drawable/general_img_logo"
+        android:width="2500sp"
+        android:height="550sp"
+        android:gravity="center"/>
+</layer-list>

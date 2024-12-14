@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout android:id="@+id/layAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btnAudio"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/general_img_audiowhite"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lblTexto"
+            android:layout_width="wrap_content"
+            android:maxWidth="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+
+            android:background="@drawable/shape_leccion_chatder"
+            android:padding="10sp"
+
+            android:text="texto"
+            android:textAlignment="textStart"
+            android:textColor="#0F0E0E"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</RelativeLayout>

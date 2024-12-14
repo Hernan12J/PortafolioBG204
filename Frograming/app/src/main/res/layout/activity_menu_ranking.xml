@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_img_fondo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MenuRankingActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/barraSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Frogramming"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:menu="@menu/general_toolbar_menu"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="Barra Superior"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <!-- Texto que muestra el titulo de raking -->
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#90071729"
+
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Ranking"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <!-- Aqui metimos todos los botones en un scroll view horizontal porque zamora se puso
+     creativo y quiere dejar espacio para meter mas temas >:)-->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/barraSuperior">
+        <!-- Se agrego un relative para que soportara los items dentro de el -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10sp">
+            <!-- Estos son lo 3 botones para acceder al raking-->
+
+            <ImageButton
+                android:id="@+id/BTNgeneral"
+                android:layout_width="195sp"
+                android:layout_height="530sp"
+                android:background="@drawable/shape_ranking_btngeneral"
+                android:src="@drawable/ranking_img_puntos_totales" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/BTNjava"
+                    android:layout_width="195sp"
+                    android:layout_height="255sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:background="@drawable/shape_ranking_btnjava"
+                    android:src="@drawable/ranking_img_js" />
+
+                <ImageButton
+                    android:id="@+id/BTNscrum"
+                    android:layout_width="195sp"
+                    android:layout_height="264sp"
+                    android:layout_marginLeft="10sp"
+                    android:background="@drawable/shape_ranking_btnscrum"
+                    android:src="@drawable/ranking_img_scrum" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

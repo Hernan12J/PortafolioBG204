@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jugabilidad2_modo_3_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modo3_Activity"
+    android:background="@drawable/general_img_fondo"><!--Link -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Jugabilidad"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:menu="@menu/general_toolbar_menu"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="BarraSuperior"/>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- Barra de Progreso -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp">
+
+            <ProgressBar
+                android:id="@+id/jugabilidad2_pgrBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="300sp"
+                android:layout_height="15sp"
+                android:max="100"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:progress="0"
+                android:progressDrawable="@drawable/shape_jugabilidad_customprogressbar" />
+        </RelativeLayout>
+
+
+        <!-- Titulo -->
+        <TextView
+            android:id="@+id/jugabilidad2_txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Arma la respuesta"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+        <!-- Imagen de Mascota -->
+        <!-- Boton para Sonido -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170sp"
+            android:layout_marginVertical="10sp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/jugabilidad2_imvMascota"
+                android:layout_width="170sp"
+                android:layout_height="170sp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/general_img_luna" />
+
+            <ImageButton
+                android:layout_width="60sp"
+                android:layout_height="50sp"
+                android:onClick="AudioPregunta"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/jugabilidad2_imvMascota"
+                android:background="@drawable/general_img_audiowhite"/>
+        </RelativeLayout>
+
+        <!-- Pregunta -->
+        <TextView
+            android:id="@+id/jugabilidad2_txtPregunta"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Pregunta"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="30sp"/>
+
+        <!-- Espacio para respuestas -->
+        <FrameLayout
+            android:id="@+id/jugabilidad2_fmlRespuestas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jugabilidad2_txtPregunta"
+            android:layout_margin="10sp"
+            android:layout_weight="1">
+
+            <com.nex3z.flowlayout.FlowLayout
+                android:id="@+id/jugabilidad2_sentence_line"
+                android:layout_width="match_parent"
+                android:layout_height="110sp"
+                app:flFlow="true" />
+        </FrameLayout>
+
+        <!-- Boton para continuar -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/jugabilidad2_modo_3_btn_confirmar"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginHorizontal="30sp"
+            android:fontFamily="@font/poppins_extrabold"
+
+            android:background="@drawable/shape_general_botones"
+            android:textAllCaps="false"
+            android:textColor="#0F0E0E"
+            android:textSize="20sp"
+            android:text="Confirmar"
+            android:elevation="5sp"
+            android:enabled="false"/>
+    </LinearLayout>
+
+</RelativeLayout>

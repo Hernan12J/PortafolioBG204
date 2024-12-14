@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PodioActivity"
+    android:background="@drawable/general_img_fondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/barraSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Frogramming"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:menu="@menu/general_toolbar_menu"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="Barra Superior"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#90071729"
+
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Podio"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgtop2"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="200sp"
+            android:src="@drawable/shape_autenticacion_perfil_template"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgtop1"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginTop="80sp"
+            android:src="@drawable/shape_autenticacion_perfil_template"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgtop3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="285sp"
+            android:layout_marginTop="250sp"
+            android:src="@drawable/shape_autenticacion_perfil_template"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nombre1"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="135sp"
+            android:layout_marginTop="180sp"
+            android:text="Nombre top1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nombre2"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="305sp"
+            android:text="Nombre top2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nombre3"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="355sp"
+            android:text="Sin jugador"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/puntos1"
+            android:layout_width="100sp"
+            android:layout_height="195sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="335sp"
+            android:background="@drawable/shape_ranking_formpodio"
+            android:paddingTop="50sp"
+            android:text="100pts."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/puntos2"
+            android:layout_width="100sp"
+            android:layout_height="320sp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginTop="210sp"
+            android:background="@drawable/shape_ranking_formpodio"
+            android:paddingTop="50sp"
+            android:text="340pts."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/puntos3"
+            android:layout_width="100sp"
+            android:layout_height="145sp"
+            android:layout_marginLeft="285sp"
+            android:layout_marginTop="385sp"
+            android:background="@drawable/shape_ranking_formpodio"
+            android:paddingTop="50sp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btntop"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginHorizontal="30sp"
+        android:fontFamily="@font/poppins_extrabold"
+
+        android:background="@drawable/shape_general_botones"
+        android:textAllCaps="false"
+        android:textColor="#0F0E0E"
+        android:textSize="20sp"
+        android:text="Top 10"
+        android:elevation="5sp"/>
+</LinearLayout>

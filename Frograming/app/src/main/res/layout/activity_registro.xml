@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_img_fondo"
+    tools:context=".RegistroActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/barraSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Registro"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="Barra Superior"/>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginVertical="20sp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/general_img_logo"/>
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/general_img_lunafeliz"/>
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginBottom="20sp"
+        app:cardCornerRadius="30sp"
+        android:padding="25sp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/scCVContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25sp"
+            android:weightSum="11">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginBottom="10sp"
+                android:text="¡REGÍSTRATE!"
+                android:textColor="#F3950D"
+                android:textSize="25sp"
+                android:fontFamily="@font/poppins_extrabold"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgNom"
+                    android:layout_width="25sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/autenticacion_img_user" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/white"
+                    android:background="@drawable/shape_autenticacion_edit_text">
+
+                    <EditText
+                        android:id="@+id/txtNombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_autenticacion_edit_text"
+                        android:hint="Nombre"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgApe"
+                    android:layout_width="25sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/autenticacion_img_user" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/white"
+                    android:background="@drawable/shape_autenticacion_edit_text">
+
+                    <EditText
+                        android:id="@+id/txtApellido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_autenticacion_edit_text"
+                        android:layout_marginTop="5sp"
+                        android:hint="Apellido"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgId"
+                    android:layout_width="25sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/autenticacion_img_id"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_autenticacion_edit_text">
+
+                    <EditText
+                        android:id="@+id/txtCedula"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:background="@drawable/shape_autenticacion_edit_text"
+                        android:hint="Cédula"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgMail"
+                    android:layout_width="25sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/autenticacion_img_mail" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/white"
+                    android:background="@drawable/shape_autenticacion_edit_text">
+
+                    <EditText
+                        android:id="@+id/txtCorreo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:background="@drawable/shape_autenticacion_edit_text"
+                        android:hint="Correo"
+                        android:inputType="textEmailAddress"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgPass"
+                    android:layout_width="25sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/autenticacion_img_candado" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_autenticacion_edit_text"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/txtContrasena"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:hint="Contraseña"
+                        android:background="@drawable/shape_autenticacion_edit_text"
+                        android:inputType="textWebPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imgPass2"
+                    android:layout_width="25sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/autenticacion_img_candado" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_autenticacion_edit_text"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/txtConfirmar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:hint="Confirmar Contraseña"
+                        android:background="@drawable/shape_autenticacion_edit_text"
+                        android:inputType="textWebPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:paddingStart="25sp"
+                android:layout_marginTop="5sp">
+
+                <Spinner
+                    android:id="@+id/spnFacultad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_autenticacion_spinner"
+                    android:entries="@array/Facultad"
+                    android:hint="Facultad"
+                    android:inputType="none" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scSpinners"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:paddingStart="25sp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5sp">
+
+                <Spinner
+                    android:id="@+id/spnCarrera"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_autenticacion_spinner"
+                    android:clickable="false"
+                    android:entries="@array/FCyT"
+                    android:inputType="none"
+                    android:layout_weight="1"/>
+
+                <Spinner
+                    android:id="@+id/spnGrupo"
+                    android:layout_width="0sp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/spnFacultad"
+                    android:layout_marginLeft="5sp"
+                    android:layout_toRightOf="@id/spnCarrera"
+                    android:background="@drawable/shape_autenticacion_spinner"
+                    android:clickable="false"
+                    android:entries="@array/Grupo1"
+                    android:inputType="none" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:maxHeight="48sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+
+                android:background="@drawable/shape_general_botones"
+                android:textAllCaps="false"
+                android:textColor="#0F0E0E"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_extrabold"
+
+                android:onClick="ver"
+                android:text="Crear Cuenta"
+                android:includeFontPadding="false"/>
+
+            <Button
+                android:id="@+id/btnPLogin"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ya tengo cuenta"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:onClick="conCuenta"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_extrabold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

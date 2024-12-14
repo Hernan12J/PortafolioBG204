@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/general_img_fondo"
+    tools:context=".RankingActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/barraSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Frogramming"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:menu="@menu/general_toolbar_menu"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="Barra Superior"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <!-- Titulo de top 10-->
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#90071729"
+
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Top 10"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10sp">
+        <!-- Aqui va el nombre del usuario que se debe traer desde la base de datos-->
+        <!-- Aqui van los puntos de usuario que se deben traer desde la base de datos-->
+        <TextView
+            android:id="@+id/txtNombreUsuario"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="130sp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPts"
+            android:layout_width="150sp"
+            android:layout_height="25sp"
+            android:layout_marginLeft="130sp"
+            android:layout_marginTop="35sp"
+            android:background="@drawable/shape_ranking_txtpts"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <!-- Aqui va la imagen de perfil del usuario que se debe traer desde la base de datos -->
+        <ImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="55sp"
+            android:layout_height="55sp"
+            android:layout_marginLeft="60sp"
+            android:src="@drawable/shape_autenticacion_perfil_template"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Aqui va la posicion del jugador que se debe traer desde la base de datos -->
+
+        <!-- Metimos todo el top en un Scroll para optimizar el espacio y sea mas comodo -->
+        <TextView
+            android:id="@+id/topUsuario"
+            android:layout_width="55sp"
+            android:layout_height="55sp"
+            android:layout_marginLeft="295sp"
+            android:background="@drawable/shape_autenticacion_perfil_template"
+            android:paddingTop="14sp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/ScrollGod"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <!-- Otra vez todo va dentro de un Linear para que soporte los items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- este el es list view donde se agregaran los jugandores y sus datos-->
+            <ListView
+                android:id="@+id/lstRanking"
+                android:layout_width="match_parent"
+                android:layout_height="350sp"
+                android:padding="10sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnpodio"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginHorizontal="30sp"
+        android:fontFamily="@font/poppins_extrabold"
+
+        android:background="@drawable/shape_general_botones"
+        android:textAllCaps="false"
+        android:textColor="#0F0E0E"
+        android:textSize="20sp"
+        android:text="Podio"
+        android:elevation="5sp"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#071729</color>
+    <color name="purple_500">#071729</color>
+    <color name="purple_700">#071729</color>
+    <color name="teal_200">#071729</color>
+    <color name="teal_700">#071729</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Gradblanco"> #DBDBDB</color>
+
+    <color name="negro"> #0F0E0E</color>
+    <color name="GradNegro"> #211F1F</color>
+
+    <color name="amarrillo"> #FFC848</color>
+    <color name="GradAmarrillo"> #F3950D</color>
+
+    <color name="azul"> #0E3A5F</color>
+    <color name="morado"> #4E0B8A</color>
+
+    <color name="trans">#00000000</color>
+    <color name="green">#98ff98</color>
+    <color name="rojo">#E61A0B</color>
+</resources>

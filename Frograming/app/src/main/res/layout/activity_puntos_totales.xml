@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuntosTotalesActivity"
+    android:orientation="vertical"
+    android:background="@drawable/general_img_fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        //Menu de Navegacion
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_navegacionT"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Frogramming"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+                app:menu="@menu/general_toolbar_menu"
+                app:navigationIcon="@drawable/general_img_atras"
+                app:navigationContentDescription="Madre mia Willy"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_speech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_navegacionT"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/jugabilidad1_img_speech"
+                android:layout_width="381sp"
+                android:layout_height="316sp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="30sp"
+                android:paddingTop="20sp"
+                android:src="@drawable/jugabilidad_img_speech_bubble" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtPuntajeObtenido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Has obtenido"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:id="@+id/txt_puntos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="50"
+                    android:textColor="@color/black"
+                    android:textSize="60sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/txt_puntos"
+                    android:gravity="center"
+                    android:text="puntos"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/im_rana_puntostoales"
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:layout_above="@+id/btn_terminarJuego"
+            android:layout_gravity="center"
+            android:src="@drawable/general_img_lunafeliz" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_terminarJuego"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+           android:layout_margin="30sp"
+            android:fontFamily="@font/poppins_extrabold"
+
+            android:background="@drawable/shape_general_botones"
+            android:textAllCaps="false"
+            android:textColor="#0F0E0E"
+            android:textSize="20sp"
+            android:text="Continuar"
+            android:elevation="5sp"/>
+    </LinearLayout>
+</RelativeLayout>

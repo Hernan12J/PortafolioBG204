@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/botonprimario.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/box_unselected.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/box_white.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/custom_progressbar.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/customprogressbar.xml" value="0.1385" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/shape_autenticacion_edit_text.xml" value="0.219" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/shape_button.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/shape_card_view.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/shape_edit_text.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/shape_jugabilidad2_btn0.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/shape_spinner.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable-v24/splash_screen.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/btngeneral.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/btnjava.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/btnscrum.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/cblanco.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/disenolistview.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/shape_general_roundedwhite.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/shape_leccion_botones.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/shape_leccion_fondolectura.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/drawable/txtpts.xml" value="0.295" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/actionbar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_card_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_cuento.xml" value="0.25" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_editar_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_inicio_sesion.xml" value="0.24660018132366274" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_leccion.xml" value="0.24660018132366274" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_loader.xml" value="0.14" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_menu_principal.xml" value="0.25" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_menu_ranking.xml" value="0.30512820512820515" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_modo1.xml" value="0.25" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_modo2.xml" value="0.2586575459598119" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_modo3.xml" value="0.22" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_modo4.xml" value="0.2586575459598119" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_podio.xml" value="0.25" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_puntos_totales.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_ranking.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_recuperar_contrasena.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_registro.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_retroalimentacion.xml" value="0.30512820512820515" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_tematica.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_tutorial.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/activity_ver_perfil.xml" value="0.2692307692307692" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/cuentoderlistview_template.xml" value="0.16973065412569474" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/cuentoizqlistview_template.xml" value="0.16973065412569474" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/listview_jugadores.xml" value="0.16973065412569474" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/layout/pareolistview_template.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/menu/general_toolbar_menu.xml" value="0.14735866543095458" />
+        <entry key="..\:/Users/Gab/Documents/GitHub/Frograming/app/src/main/res/menu/main.xml" value="0.371875" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/botonprimario.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/box_unselected.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/box_white.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/custom_progressbar.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/ic__home.xml" value="0.2265" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/ic_arrow_drop_down.xml" value="0.2265" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/ic_cerrar_sesion.xml" value="0.2265" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/ic_editar.xml" value="0.2265" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/ic_ver.xml" value="0.2265" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/shape_jugabilidad2_btn0.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/shape_jugabilidad2_correcto.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/shape_jugabilidad2_incorrecto.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/shape_jugabilidad2_palabra.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/shape_jugabilidad2_seleccionaropcion.xml" value="0.245" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable-v24/splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable/btngeneral.xml" value="0.24" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable/cblanco.xml" value="0.24" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable/disenolistview.xml" value="0.24" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable/formpodio.xml" value="0.24" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable/shape_leccion_botones.xml" value="0.1" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/drawable/txtpts.xml" value="0.24" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/font/poppins_extrabold.xml" value="0.3046875" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/actionbar.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_card_view.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_cuento.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_editar_perfil.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_escoger_tipo_acivity.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_inicio_sesion.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_leccion.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_loader.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_main.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_menu_principal.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_menu_ranking.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_modo1.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_modo2.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_modo3.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_modo4.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_podio.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_puntos_totales.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_ranking.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_recuperar_contrasena.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_registro.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_retroalimentacion.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_tematica.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_tutorial.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/activity_ver_perfil.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/cuentoderlistview_template.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/cuentoizqlistview_template.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/listview_jugadores.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/layout/pareolistview_template.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/menu/main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/menu/menu_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/lueun/AndroidStudioProjects/Frograming/app/src/main/res/menu/menuprincipal.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/drawable-v24/box_white.xml" value="0.1" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/drawable-v24/shape_opcion2.xml" value="0.1" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/actionbar.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_card_view.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_cuento.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_editar_perfil.xml" value="0.2" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_escoger_tipo_acivity.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_inicio_sesion.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_leccion.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_loader.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_main.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_menu_principal.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_menu_ranking.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_modo1.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_modo2.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_modo3.xml" value="0.15" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_modo4.xml" value="0.1" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_podio.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_puntos_totales.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_ranking.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_recuperar_contrasena.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_registro.xml" value="0.18" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_retroalimentacion.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_tematica.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_tutorial.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/activity_ver_perfil.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/cuentoderlistview_template.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/cuentoizqlistview_template.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/listview_jugadores.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/layout/pareolistview_template.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/menu/main.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/Frograming/app/src/main/res/menu/menu_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

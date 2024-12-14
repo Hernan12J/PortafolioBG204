@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_disenolistview"
+        android:layout_marginBottom="5sp">
+
+        <TextView
+            android:id="@+id/txtPosicion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/imgMedalla"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtPosicion" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_marginLeft="40sp"
+            android:layout_toRightOf="@+id/txtPosicion"
+            android:src="@drawable/shape_autenticacion_perfil_template" />
+
+        <TextView
+            android:id="@+id/txtNombreUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgPerfil"
+            android:text="Nombre"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtPuntos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40sp"
+            android:text="Sin puntos"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

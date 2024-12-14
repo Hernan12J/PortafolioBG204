@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modo2_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/general_img_fondo">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Jugabilidad"
+            app:titleTextColor="@color/white"
+            android:background="#071729"
+            app:menu="@menu/general_toolbar_menu"
+            app:navigationIcon="@drawable/general_img_atras"
+            app:navigationContentDescription="BarraSuperior"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+
+        <ProgressBar
+            android:id="@+id/Jugabilidad1_ProgresBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300sp"
+            android:layout_height="15sp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:progress="0"
+            android:progressDrawable="@drawable/shape_jugabilidad_customprogressbar" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtpregunta"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Pregunta"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/Luna"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/general_img_luna"/>
+
+        <ImageButton
+            android:id="@+id/jugabilidad1_img_audio"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/Luna"
+            android:background="@drawable/general_img_audiowhite"
+            android:onClick="ReproducirPreguntaModo2"/>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:gravity="center"
+        android:id="@+id/opciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:textAlignment="center"
+
+            android:id="@+id/txtopcion1"
+            android:button="@null"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="Opcion 1 "
+            android:background="@drawable/shape_jugabilidad2_opcion2"
+            android:textSize="20sp"  ></RadioButton>
+        <!--android:button="transparent"-->
+
+
+        <RadioButton
+            android:textAlignment="center"
+
+            android:id="@+id/txtopcion2"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="Opcion 2 "
+            android:padding="10sp"
+            android:textSize="20sp"
+            android:background="@drawable/shape_jugabilidad2_opcion2">
+            <!--android:button="transparent" -->
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/txtopcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/shape_jugabilidad2_opcion2"
+            android:button="@null"
+
+            android:textAlignment="center"
+
+            android:padding="10sp"
+            android:text="Opcion 3 "
+            android:textSize="20sp">
+            <!--android:button="transparent" -->
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/txtopcion4"
+            android:padding="10sp"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Opcion 4 "
+            android:textSize="20sp"
+            android:background="@drawable/shape_jugabilidad2_opcion2">
+            <!--android:button="transparent" -->
+        </RadioButton>
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/jugabilidad1_tipo2_btn_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginHorizontal="30sp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:onClick="Continuar2"
+
+        android:background="@drawable/shape_general_botones"
+        android:textAllCaps="false"
+        android:textColor="#0F0E0E"
+        android:textSize="20sp"
+        android:text="Confirmar"
+        android:elevation="5sp"
+        android:enabled="false"/>
+    <!--android:onClick="ConfirmarRespuesta" -->
+</LinearLayout>

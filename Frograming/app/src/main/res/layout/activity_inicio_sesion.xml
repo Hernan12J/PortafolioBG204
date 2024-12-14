@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_img_fondo"
+    tools:context=".InicioSesionActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/barraSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Frograming"
+                app:titleTextColor="@color/white"
+                android:background="#071729"
+
+                app:navigationContentDescription="Barra Superior"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLuna"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/general_img_lunafeliz"
+        android:layout_marginVertical="10sp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/Bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+
+            android:text="Bienvenido a"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="42sp" />
+
+        <ImageView
+            android:id="@id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="85sp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/general_img_logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scCVContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Bienvenida"
+        android:orientation="vertical"
+        android:padding="30sp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_general_roundedwhite"
+            android:orientation="horizontal"
+            android:padding="5sp">
+
+            <ImageView
+                android:id="@+id/imgMail"
+                android:layout_width="25sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/autenticacion_img_mail" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/white"
+                android:layout_marginHorizontal="5sp"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/txtCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5sp"
+                    android:background="@drawable/shape_autenticacion_edit_text"
+                    android:hint="Correo"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_general_roundedwhite"
+            android:orientation="horizontal"
+            android:padding="5sp"
+            android:layout_marginTop="10sp">
+
+            <ImageView
+                android:id="@+id/imgPass"
+                android:layout_width="25sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/autenticacion_img_candado" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:layout_marginHorizontal="5sp"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/txtContrasena"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5sp"
+                    android:background="@drawable/shape_autenticacion_edit_text"
+                    android:hint="Contraseña"
+                    android:inputType="textWebPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="¿Olvidaste tu contraseña?"
+            android:onClick="contrasenaOlvidada"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:maxHeight="48sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:includeFontPadding="false"
+
+            android:background="@drawable/shape_general_botones"
+            android:textAllCaps="false"
+            android:textColor="#0F0E0E"
+            android:textSize="20sp"
+
+            android:onClick="ValidarUsuario"
+            android:text="Iniciar Sesión"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_below="@+id/btnIniciarSesion"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:onClick="sinCuenta"
+            android:text="¿No tienes cuenta?"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
