@@ -1,0 +1,95 @@
+-- 1. Crear la base de datos
+CREATE DATABASE SistemaPedidos;
+GO
+USE SistemaPedidos;
+
+GO
+-- 2. Tabla de Roles
+CREATE TABLE Roles (
+    RolID INT PRIMARY KEY IDENTITY(1,1),
+    NombreRol VARCHAR(50) NOT NULL
+);
+
+GO
+-- 3. Tabla de Usuarios
+CREATE TABLE Usuarios (
+    UsuarioID INT PRIMARY KEY IDENTITY(1,1),
+    Nombre VARCHAR(50) NOT NULL,
+    Apellido VARCHAR(50) NOT NULL,
+    Correo VARCHAR(50) NOT NULL,
+    RolID INT FOREIGN KEY REFERENCES Roles(RolID)
+);
+GO
+-- 4. Tabla de Clientes
+CREATE TABLE Clientes (
+    ClienteID INT PRIMARY KEY IDENTITY(1,1),
+    NombreCliente VARCHAR(50) NOT NULL,
+    ApellidoCliente VARCHAR(50) NOT NULL,
+    Correo VARCHAR(50) NOT NULL,
+    Telefono VARCHAR(15),
+    RolID INT FOREIGN KEY REFERENCES Roles(RolID)  -- Relación con Roles
+);
+
+GO
+-- 5. Tabla de Categorías
+CREATE TABLE Categorias (
+    CategoriaID INT PRIMARY KEY IDENTITY(1,1),
+    NombreCategoria VARCHAR(50) NOT NULL
+);
+
+GO
+-- 6. Tabla de Proveedores
+CREATE TABLE Proveedores (
+    ProveedorID INT PRIMARY KEY IDENTITY(1,1),
+    NombreProveedor VARCHAR(50) NOT NULL,
+    Telefono VARCHAR(15) NOT NULL
+);
+
+GO
+-- 7. Tabla de Productos
+CREATE TABLE Productos (
+    ProductoID INT PRIMARY KEY IDENTITY(1,1),
+    NombreProducto NVARCHAR(50) NOT NULL,
+    Precio DECIMAL(10,2) NOT NULL,
+    Stock INT NOT NULL,
+    FechaIngreso DATE NOT NULL,
+    CategoriaID INT FOREIGN KEY REFERENCES Categorias(CategoriaID),
+    ProveedorID INT FOREIGN KEY REFERENCES Proveedores(ProveedorID)
+);
+
+GO
+-- 8. Tabla de Inventario
+CREATE TABLE Inventario (
+    MovimientoID INT PRIMARY KEY IDENTITY(1,1),
+    ProductoID INT FOREIGN KEY REFERENCES Productos(ProductoID),
+    Cantidad INT NOT NULL,
+    FechaMovimiento DATE NOT NULL,
+    TipoMovimiento VARCHAR(50) NOT NULL  -- Ingreso o Egreso
+);
+GO
+-- 9. Tabla de Pedidos
+CREATE TABLE Pedidos (
+    PedidoID INT PRIMARY KEY IDENTITY(1,1),
+    UsuarioID INT FOREIGN KEY REFERENCES Usuarios(UsuarioID),
+    FechaPedido DATE NOT NULL,
+    Estado VARCHAR(20) NOT NULL  -- Procesado o No Procesado
+);
+
+GO
+-- 10. Tabla de Detalles de Pedido
+CREATE TABLE DetallesPedido (
+    DetallePedidoID INT PRIMARY KEY IDENTITY(1,1),
+    PedidoID INT FOREIGN KEY REFERENCES Pedidos(PedidoID) ON DELETE CASCADE,
+    ProductoID INT FOREIGN KEY REFERENCES Productos(ProductoID) ON DELETE CASCADE,
+    Cantidad INT NOT NULL,
+    PrecioUnitario DECIMAL(10, 2) NOT NULL
+);
+
+GO
+-- 11. Tabla de Ventas
+CREATE TABLE Ventas (
+    VentaID INT PRIMARY KEY IDENTITY(1,1),
+    ClienteID INT FOREIGN KEY REFERENCES Clientes(ClienteID),  -- Relación con Clientes
+    FechaVenta DATE NOT NULL,
+    TotalVenta DECIMAL(10, 2) NOT NULL
+);

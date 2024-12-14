@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+
+/* GLOBALES */
+hr{
+    margin: 2rem 0;
+}
+
+/* LOGIN */
+@media (max-width: 480px) {
+    .logologin{
+        width: 300px;
+        height: 80px;
+    }
+}
+/* HEADER */
+.logoClinica{
+    width: 300px;
+    height: 80px;
+}
+
+.positionLogo{
+    text-align: center;
+}
+
+.fondo-header{
+    background-color: white;
+}
+
+.header-pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-usuario{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-usuario-pad{
+    padding: 20px;
+}
+
+/* NAVEGACION */
+.font-nav{
+    font-size: 1.2rem;
+}
+
+
+/* MAIN ORDENES MEDICAS */
+.datos{
+    width: 100%;
+    padding: 2rem;
+}
+
+.pacientes-size{
+    width: 20rem;
+}
+
+.datos-paciente{
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+}
+
+.datos-des{
+    display: flex;
+    gap: 30px;
+}
+
+.btns-form{
+    margin-top: 2rem;
+}
+
+/* MAIN PACIENTES */
+.nuevo-paciente{
+    width: 35px;
+    height: 35px;
+}
+
+.btn-new-paciente{
+    margin-bottom: 2rem;
+    background-color: gainsboro;
+}
+
+.btn-new-paciente:hover{
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+.tabla-pacientes{
+    width: 100%;
+}
+
+.modal-columnas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.btns-paciente{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-ver{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 165, 0);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+.btn-ver:hover, .btn-trash:hover{
+    color: white;
+}
+
+.btn-trash{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(255, 50, 50);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+/* MAIN PERFIL PACIENTES */
+.todo-horizontal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.size-control{
+    width: 5rem;
+}
+
+/* MAIN PERFIL */
+.perfil-admin{
+    padding: 2rem;
+}
+
+.perfil-doctor{
+    width: 10rem;
+    height: 10rem;
+}
+
+.perfil-doctor-size{
+    text-align: center;
+}
+
+/* REPORTES */
+.total-pacientes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reportes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+.footer-pagina{
+    padding-top: 2rem;
+}

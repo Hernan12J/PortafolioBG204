@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C2EF93E-392E-49DB-B9F7-B704F503A79C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProyectoFinal_DS8_Grupo1.My.MyApplication</StartupObject>
+    <RootNamespace>ProyectoFinal_DS8_Grupo1</RootNamespace>
+    <AssemblyName>ProyectoFinal-DS8-Grupo1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProyectoFinal-DS8-Grupo1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProyectoFinal-DS8-Grupo1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ClassForms\clsCategorias.vb" />
+    <Compile Include="Models\ClassForms\clsColaborador.vb" />
+    <Compile Include="Models\ClassForms\clsInventario.vb" />
+    <Compile Include="Models\ClassForms\clsProveedores.vb" />
+    <Compile Include="Models\ClassForms\clsReportes.vb" />
+    <Compile Include="Models\ClassForms\clsRoles.vb" />
+    <Compile Include="Models\ClassForms\clsVentas.vb" />
+    <Compile Include="Views\ADMIN\FrmAdmin.Designer.vb">
+      <DependentUpon>FrmAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmCategoria.Designer.vb">
+      <DependentUpon>FrmCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmColaborador.Designer.vb">
+      <DependentUpon>FrmColaborador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmColaborador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmProveedor.Designer.vb">
+      <DependentUpon>FrmProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmReportes.Designer.vb">
+      <DependentUpon>FrmReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmRoles.Designer.vb">
+      <DependentUpon>FrmRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\USER\FrmCompra.Designer.vb">
+      <DependentUpon>FrmCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\USER\FrmCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\USER\FrmFactura.Designer.vb">
+      <DependentUpon>FrmFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\USER\FrmFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmInventario.Designer.vb">
+      <DependentUpon>FrmInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmPedidos.Designer.vb">
+      <DependentUpon>FrmPedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ADMIN\FrmPedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\USER\FrmUser.Designer.vb">
+      <DependentUpon>FrmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\USER\FrmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\ClassForms\clsCompra.vb" />
+    <Compile Include="Models\Login\clsCreateUser.vb" />
+    <Compile Include="Models\Login\clsLogin.vb" />
+    <Compile Include="Models\Login\FrmCreateUser.Designer.vb">
+      <DependentUpon>FrmCreateUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Login\FrmCreateUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\Login\FrmRecuperacion.Designer.vb">
+      <DependentUpon>FrmRecuperacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Login\FrmRecuperacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Models\Login\FrmRecuperacion.resx">
+      <DependentUpon>FrmRecuperacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmCategoria.resx">
+      <DependentUpon>FrmCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmColaborador.resx">
+      <DependentUpon>FrmColaborador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmInventario.resx">
+      <DependentUpon>FrmInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmPedidos.resx">
+      <DependentUpon>FrmPedidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmProveedor.resx">
+      <DependentUpon>FrmProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmReportes.resx">
+      <DependentUpon>FrmReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ADMIN\FrmRoles.resx">
+      <DependentUpon>FrmRoles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\USER\FrmCompra.resx">
+      <DependentUpon>FrmCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\USER\FrmFactura.resx">
+      <DependentUpon>FrmFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\USER\FrmUser.resx">
+      <DependentUpon>FrmUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models\Login\FrmCreateUser.resx">
+      <DependentUpon>FrmCreateUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,77 @@
+
+body{
+    background: #6C5050;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: end;
+    padding-right: 4%;
+}
+
+nav img{
+    width: 220px;
+    
+}
+
+.apartado{
+    background: #D0AFAF;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.contenedor{
+    display: flex;
+    background: #ff002f27;
+    justify-content: end;
+}
+
+.izquier{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: white;
+    width: 650px;
+    margin: 7px;
+}
+
+.izquier h2{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.datos{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: larger;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    border: solid 1px;
+}
+
+.nombre{
+    margin-top: 25px;
+}
+
+.boton{
+    font-size: large;
+    color: rgb(0, 0, 163);
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 3%;
+    border: solid blue;
+    border-radius: 5px;
+}
+
+
+
+.dere{
+    background: white;
+}
+
+.dere img{
+    width: 430px;
+}

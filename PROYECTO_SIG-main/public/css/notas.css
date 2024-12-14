@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    background: #FFBBBB;
+}
+
+.todo{
+    display: flex;
+    background: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4%;
+    padding-bottom: 1%;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-size: 18px;
+}
+
+.datos{
+    padding: 2%;
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.descripcion{
+    text-align: start;
+    margin-bottom: 2%;
+    width: auto;
+}
+
+.izquier{
+    text-align: center;
+    padding-right: 7%;
+}
+
+.izquier textarea{
+    resize: none;
+}
+
+.dere{
+    text-align: center;
+    padding-left: 7%;
+}
