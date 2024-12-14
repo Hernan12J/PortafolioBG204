@@ -1,0 +1,125 @@
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.exe
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.deps.json
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.runtimeconfig.json
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.pdb
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.AssemblyReference.cache
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.LoginPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.Resources.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PrincipalPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.RecuperarPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.GenerateResource.cache
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfoInputs.cache
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfo.vb
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CoreCompileInputs.cache
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\refint\ES_Desktop.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.pdb
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.genruntimeconfig.cache
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ref\ES_Desktop.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PerfilPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.BienvenidoPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AsistenciaPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.HorarioPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.SolicitudPage.resources
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.pdb
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CopyComplete
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.exe
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.deps.json
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.runtimeconfig.json
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.pdb
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\MySql.Data.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\Google.Protobuf.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ZstdNet.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+A:\VS\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.pdb
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.AssemblyReference.cache
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AsistenciaPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.BienvenidoPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.HorarioPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.LoginPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.Resources.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PerfilPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PrincipalPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.RecuperarPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.SolicitudPage.resources
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.GenerateResource.cache
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.GeneratedMSBuildEditorConfig.editorconfig
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfoInputs.cache
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfo.vb
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CoreCompileInputs.cache
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CopyComplete
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.dll
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\refint\ES_Desktop.dll
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.pdb
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.genruntimeconfig.cache
+A:\VS\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ref\ES_Desktop.dll
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.exe
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.deps.json
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.runtimeconfig.json
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.dll
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.pdb
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.dll
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.pdb
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.AssemblyReference.cache
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AsistenciaPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.BienvenidoPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.HorarioPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.LoginPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.Resources.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PerfilPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PrincipalPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.RecuperarPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.SolicitudPage.resources
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.GenerateResource.cache
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfoInputs.cache
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfo.vb
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CoreCompileInputs.cache
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CopyComplete
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.dll
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\refint\ES_Desktop.dll
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.pdb
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.genruntimeconfig.cache
+C:\Users\Jorge\source\repos\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ref\ES_Desktop.dll
+C:\Users\jairs\OneDrive\Documentos\Proyecto Final de DSVIII\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.OpcionesPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.exe
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.deps.json
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.runtimeconfig.json
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.dll
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Desktop.pdb
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.dll
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\bin\Debug\net6.0-windows\ES_Database.pdb
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.AssemblyReference.cache
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AsistenciaPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.BienvenidoPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.HorarioPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.LoginPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.Resources.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.OpcionesPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PerfilPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.PrincipalPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.RecuperarPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.SolicitudPage.resources
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.GenerateResource.cache
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfoInputs.cache
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.AssemblyInfo.vb
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CoreCompileInputs.cache
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.vbproj.CopyComplete
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.dll
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\refint\ES_Desktop.dll
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.pdb
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ES_Desktop.genruntimeconfig.cache
+C:\Users\jairs\Desktop\ES_Desktop\ES_Desktop\obj\Debug\net6.0-windows\ref\ES_Desktop.dll
