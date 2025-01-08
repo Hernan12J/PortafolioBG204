@@ -26,7 +26,7 @@ public class Hook {
 
     @Given("{string} open the site web")
     public void openSiteWeb(String actor) {
-        OnStage.theActorCalled(actor).attemptsTo(OpenWeb.browserURL(WEB_URL));
+        OnStage.theActorCalled(actor).attemptsTo(OpenWeb.browserURL());
         Time.waitting(TIME_SHORT);
         theActorInTheSpotlight().should(
                 GivenWhenThen.seeThat(

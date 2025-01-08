@@ -1,6 +1,6 @@
 # Autor: hhern
 # Fecha: 12/17/2024
-Feature: : Abrir una pagina web
+Feature: Abrir una pagina web
 
   Background:
     Given "Hernan" open the site web

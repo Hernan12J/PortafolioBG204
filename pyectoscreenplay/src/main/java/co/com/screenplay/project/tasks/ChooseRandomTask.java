@@ -14,7 +14,6 @@ import net.serenitybdd.screenplay.actions.Scroll;
 import static co.com.screenplay.project.ui.HomeUi.BTN_ELEMENTS;
 import static co.com.screenplay.project.ui.HomeUi.BTN_LIST_ELEMENTS;
 import static co.com.screenplay.project.utils.Cons.REMEMBER_TEXT_BTN_SUB_ELEMENTS;
-import static co.com.screenplay.project.utils.DataFaker.fakerNumberOneAndNine;
 
 @AllArgsConstructor
 
