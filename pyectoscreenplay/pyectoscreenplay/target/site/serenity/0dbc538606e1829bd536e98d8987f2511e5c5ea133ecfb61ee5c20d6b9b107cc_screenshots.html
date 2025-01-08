@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css"><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.11.3/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.11.3/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.11.3/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Serenity BDD Report</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e8d65e2f3d59256eed1ef212745a0700fb9758b9c64c4b9229564a7357391a85.html">Fill Form Functionality</a></span>
+                > <span class="truncate-60"><a
+                    href="0dbc538606e1829bd536e98d8987f2511e5c5ea133ecfb61ee5c20d6b9b107cc.html">Fill out the form and submit it </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 08-01-2025 09:51</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">Fill Form Functionality </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="3d74b427273235d0b6d93204f450caa4dbd7f63cf550df8ec55ed8d6a767485c.html">Successful
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Fill out the form and submit it
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b730a84c579b5a619d06b7d8deb5cd866b6d49d98d4af74e114e943e83aaaee9.png" title=" Given &quot;Hernan&quot; open the site web" width="1912"/>
+                <img src="b730a84c579b5a619d06b7d8deb5cd866b6d49d98d4af74e114e943e83aaaee9.png" title=" HernanAbrir navegador edge" width="1912"/>
+                <img src="b730a84c579b5a619d06b7d8deb5cd866b6d49d98d4af74e114e943e83aaaee9.png" title=" Hernan opens the browser at https://demoqa.com/" width="1912"/>
+                <img src="b730a84c579b5a619d06b7d8deb5cd866b6d49d98d4af74e114e943e83aaaee9.png" title=" HernanAbrir navegador edge (completed)" width="1912"/>
+                <img src="b730a84c579b5a619d06b7d8deb5cd866b6d49d98d4af74e114e943e83aaaee9.png" title=" Then the title of the page should be a string containing 'DEMOQA'" width="1912"/>
+                <img src="b730a84c579b5a619d06b7d8deb5cd866b6d49d98d4af74e114e943e83aaaee9.png" title=" Given &quot;Hernan&quot; open the site web (completed)" width="1912"/>
+                <img src="ec9a0819032474dbbab1d1126851e909ee4e167417cecdfbb6881a88cdefe0d5.png" title=" And Validar menu de Forms" width="1912"/>
+                <img src="ec9a0819032474dbbab1d1126851e909ee4e167417cecdfbb6881a88cdefe0d5.png" title=" Hernan join practice" width="1912"/>
+                <img src="ec9a0819032474dbbab1d1126851e909ee4e167417cecdfbb6881a88cdefe0d5.png" title=" Hernan clicks on Boton elementos" width="1912"/>
+                <img src="4ed4cd232b476adeca1a0c7b4ffad8387fa0ab77eedea9ae880933e950d98ced.png" title=" Hernan clicks on Boton elementos" width="1912"/>
+                <img src="d98724f658151e1a8edb4a94930ebe52f2ea0742a0e79994348008472f4cfb2b.png" title=" Hernan clicks on Boton elementos (completed)" width="1912"/>
+                <img src="76c754a7c665f7791bacf5e8d696a069b1f986c5b8ed7b3c8ff0cc516497d4c1.png" title=" Hernan join practice (completed)" width="1912"/>
+                <img src="76c754a7c665f7791bacf5e8d696a069b1f986c5b8ed7b3c8ff0cc516497d4c1.png" title=" And Validar menu de Forms (completed)" width="1912"/>
+                <img src="17ea1dc32213b620aedec790240931af2785f234a44a1029b9aede1959ee59c5.png" title=" When Selecciona Practice From" width="1912"/>
+                <img src="e708592738165fd4d63f377fd0ec41fc9b6af0ae44d20aadc1859bbfe7dce7c1.png" title=" And Llena el formulario con los datos requeridos" width="1912"/>
+                <img src="e708592738165fd4d63f377fd0ec41fc9b6af0ae44d20aadc1859bbfe7dce7c1.png" title=" Hernan fill field" width="1912"/>
+                <img src="e708592738165fd4d63f377fd0ec41fc9b6af0ae44d20aadc1859bbfe7dce7c1.png" title=" Hernan enters 'Hernan' into Campo Nombre" width="1912"/>
+                <img src="e708592738165fd4d63f377fd0ec41fc9b6af0ae44d20aadc1859bbfe7dce7c1.png" title=" Hernan enters 'Hernandez' into Campo Apellido" width="1912"/>
+                <img src="75804338fdd6f5a456dd5828867b56e05d42edf5bdd883f75c5037e4cdd5d48a.png" title=" Hernan enters 'Hernandez' into Campo Apellido (completed)" width="1912"/>
+                <img src="e5477d0d1bc6651d69a55b288180153b983d1ecedcd9868f428a6111e9d13d99.png" title=" Hernan fill field (completed)" width="1912"/>
+                <img src="e5477d0d1bc6651d69a55b288180153b983d1ecedcd9868f428a6111e9d13d99.png" title=" And Llena el formulario con los datos requeridos (completed): <span class='success-color'>SUCCESS</span>" width="1912"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 3.3.4</span>
+</div>
+</body>
+</html>
